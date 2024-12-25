@@ -116,6 +116,18 @@ sudo wg showconf wg0 > /etc/wireguard/wg0.conf
 ```
 pada wg0.conf tambahkan : Address = ip/subnet
 
+```
+[Interface]
+Address = 10.5.10.1/32
+ListenPort = 58483
+PrivateKey = +MiXsTStJHzAZxflOexAylgK26ABzsn9koOG2qHKu18=
+
+[Peer]
+PublicKey = dJZ5zXKzlsitJea5gPKqAInfxGWOvp7YwHepLn/bjxI=
+AllowedIPs = 10.5.10.0/24
+Endpoint = 192.168.0.5:42607
+PersistentKeepalive = 25
+```
 # menjalankan wg0 jika merestart terminal
 
 ```
