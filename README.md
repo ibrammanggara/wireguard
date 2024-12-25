@@ -114,6 +114,7 @@ sudo wg set wg0 peer (publik key dari server) allowed-ips (alamat ip yang diguna
 ```
 sudo wg showconf wg0 > /etc/wireguard/wg0.conf
 ```
+pada wg0.conf tambahkan : Address = ip/subnet
 
 # menjalankan wg0 jika merestart terminal
 
