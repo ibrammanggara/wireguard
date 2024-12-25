@@ -2,7 +2,7 @@
 title: Wireguard VPN
 ---
 ---
-noted: p
+title: Wireguard VPN
 ---
 
 
