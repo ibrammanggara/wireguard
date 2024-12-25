@@ -115,10 +115,10 @@ sudo wg set wg0 peer (publik key dari server) allowed-ips (alamat ip yang diguna
 sudo wg showconf wg0 > /etc/wireguard/wg0.conf
 ```
 
-# restart wg0
+# menjalankan wg0 jika merestart terminal
 
 ```
-sudo systemctl restart wg-quick@wg0
+sudo wg-quick up wg0
 ```
 
 
