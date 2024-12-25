@@ -108,5 +108,11 @@ pada perintah di atas, ubah bagian
 ```
 sudo wg set wg0 peer (publik key dari server) allowed-ips (alamat ip yang digunakan wg0 dari server) endpoint (ip:port dari ip local dan port yang telah dibuka oleh wg tadi)
 ```
+# save konfigurasi wg0 ke file .conf
+
+```
+sudo wg showconf wg0 > /etc/wireguard/wg0.conf
+
+```
 
 # lakukan ping pada ip interface wg0
