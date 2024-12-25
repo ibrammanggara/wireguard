@@ -1,9 +1,6 @@
 ---
 title: Wireguard VPN
 ---
----
-title2: Wireguard VPN2
----
 
 
 # **membuat vpn dengan wireguard**
